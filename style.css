@@ -1,0 +1,18 @@
+.waveimg{
+    display: none;
+}
+   
+    .feature-section-1-images:hover .waveimg{
+        display: block;
+    }
+    .feature-section-1-images:hover .cornerimg{
+        filter: opacity(80%);
+        
+    }
+    .feature-section-1-images{
+        transition:all 0.2s ease;
+        &:hover{
+            filter:drop-shadow(0px 0px 20px white);
+        }
+
+    }
